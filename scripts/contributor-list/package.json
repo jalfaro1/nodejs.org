@@ -5,7 +5,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.11",
-    "node-github-graphql": "^0.2.7"
-  }
+    "lodash": "^4.17.21",
+    "node-github-graphql": "^0.2.7",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
