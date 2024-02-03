@@ -56,7 +56,7 @@
     "ncp": "2.0.0",
     "node-version-data": "1.0.1",
     "octonode": "^0.9.5",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "require-dir": "1.2.0",
     "semver": "6.0.0",
     "st": "1.2.2",
